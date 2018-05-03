@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MaterializeModule } from 'angular2-materialize';
+import { ClarityModule } from '@clr/angular';
 import { AppComponent } from './app.component';
 
 
@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    MaterializeModule
+    ClarityModule
   ],
   providers: [],
   bootstrap: [AppComponent]

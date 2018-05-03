@@ -1,23 +1,42 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-<header>
-  <div class="container">
-  
-  </div>  
-  <ul id="nav-mobile" class="sidenav sidenav-fixed">
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <li class="bold">
-          <a class="collapsible-header">CSS</a>
-          <div class="collapsible-body">
-            <ul>
-              <li>Color</li>
-              <li>Fonts</li>
-              <li>Stuff</li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</header>
+<div class="main-container">
+    <header class="header header-6">
+        ...
+    </header>
+    <div class="content-container">
+        <div class="content-area">
+            ...
+        </div>
+        <nav class="sidenav">
+            <section class="sidenav-content">
+                <a href="..." class="nav-link active">
+                    Nav Element 1
+                </a>
+                <a href="..." class="nav-link">
+                    Nav Element 2
+                </a>
+                <section class="nav-group collapsible">
+                    <input id="tabexample1" type="checkbox">
+                    <label for="tabexample1">Collapsible Nav Element</label>
+                    <ul class="nav-list">
+                        <li><a class="nav-link">Link 1</a></li>
+                        <li><a class="nav-link">Link 2</a></li>
+                    </ul>
+                </section>
+                <section class="nav-group">
+                    <input id="tabexample2" type="checkbox">
+                    <label for="tabexample2">Default Nav Element</label>
+                    <ul class="nav-list">
+                        <li><a class="nav-link">Link 1</a></li>
+                        <li><a class="nav-link">Link 2</a></li>
+                        <li><a class="nav-link active">Link 3</a></li>
+                        <li><a class="nav-link">Link 4</a></li>
+                        <li><a class="nav-link">Link 5</a></li>
+                        <li><a class="nav-link">Link 6</a></li>
+                    </ul>
+                </section>
+            </section>
+        </nav>
+    </div>
+</div>
